@@ -1,3 +1,23 @@
 // Place all the styles related to the api/Pokemon controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.flex {
+  display: flex;
+}
+
+.pokemon-ul {
+  flex-wrap: wrap;
+}
+
+.pokemon-li {
+  height: 100px;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.pokemon-li > img {
+  margin: 10px;
+}
