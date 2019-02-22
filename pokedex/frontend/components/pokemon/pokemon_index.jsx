@@ -11,15 +11,11 @@ export default class PokemonIndex extends React.Component {
 
   render() {
     return (
-      <>
-        <ul className="pokemon-ul flex">
-          { this.props.pokemon.map( pokemon => (
-            <PokemonIndexItem key={pokemon.id} pokemon={pokemon} />
-            )
-          )}
-        </ul>
-        <Route path={`/pokemon/:pokemonId`}
-          component={PokemonDetailContainer} />
-      </>
+      <ul className="pokemon-ul flex">
+        { this.props.pokemon.map( pokemon => (
+          <PokemonIndexItem key={pokemon.id} pokemon={pokemon} />
+          )
+        )}
+      </ul>
     )}
 } 

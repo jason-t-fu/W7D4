@@ -25,6 +25,7 @@
    color: $grey;
    font-size: 12px;
    height: 100%;
+   
  }
 
  header {
@@ -90,12 +91,12 @@
  }
 
  #root {
-   height: 100%;
    padding-top: 20px;
  }
 
  h1 {
    font-size: 40px;
+   color: $red;
  }
  h2 {
    font-size: 32px;
@@ -104,5 +105,11 @@
  h3 {
    font-size: 24px;
    text-align: center;
-   color: $black;
+   margin: 5px;
+ }
+ h4 {
+   font-size: 20px;
+   text-align: center;
+   padding: 10px;
+   margin: 5px;
  }
